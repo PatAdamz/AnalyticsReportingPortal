@@ -1,0 +1,3 @@
+## Analytics Reporting Portal
+### How to use: 
+The purpose of this repository is to serve as a quick template for setting up a reporting portal which can be used to consolidate reports across many platforms. The reports must be sitting on a web server and support being embedded in an iframe. Simply fork the repository and modify the code as needed. You can control access to reports via traditional methods such  as LDAP, this code simply serves as a shell. 

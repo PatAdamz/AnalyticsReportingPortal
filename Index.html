@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporting Portal</title>
+	<link rel="stylesheet" href="styles/homePageStyle.css">
+    <script src="lib/functions.js"></script>
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen">
+</head>
+<body>
+
+    <header>
+        <img class="header_logo" src="img/logo.png">
+        <h1>Department Analytics Portal</h1>
+        
+    </header>
+    
+    <nav>
+        <div class="dropdown">
+            <a href="#">All Departments</a>
+            <div class="dropdown-content">
+                <ul>
+                    <li><button onclick="populateIframe('https://www.passionned.com/business-intelligence/tools/qlik/')">Qlik Report</button></li>
+                    <li><button onclick="populateIframe('https://www.databeat.net/databeatblog/visualize-your-data-with-microsoft-powerbi')">PowerBI Report</button></li>
+                    <li><button onclick="populateIframe('https://www.uneecops.com/blog/tableau-critical-business-report-dashboard-guide/')">Tableau Report</button></li>
+                    <li><button onclick="populateIframe('https://www.knowi.com/')">Knowi Report</button></li>
+                    <li><button onclick="populateIframe('https://blog.eduonix.com/2016/02/introduction-to-sql-server-reporting-services-ssrs/')">SSRS Report</button></li>
+                    <li><button onclick="populateIframe('https://guides.library.duke.edu/excel/intro')">Excel</button></li>
+                </ul>
+                    <!-- Add more departments as needed -->
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">Material Damage</a>
+            <div class="dropdown-content">
+                <ul>
+                    <li><button onclick="populateIframe('https://www.passionned.com/business-intelligence/tools/qlik/')">Qlik Report</button></li>
+                    <li><button onclick="populateIframe('https://www.databeat.net/databeatblog/visualize-your-data-with-microsoft-powerbi')">PowerBI Report</button></li>
+                    <li><button onclick="populateIframe('https://www.uneecops.com/blog/tableau-critical-business-report-dashboard-guide/')">Tableau Report</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">Liability</a>
+            <div class="dropdown-content">
+                <ul>
+                    <li><button onclick="populateIframe('https://www.knowi.com/')">Knowi Report</button></li>
+                    <li><button onclick="populateIframe('https://blog.eduonix.com/2016/02/introduction-to-sql-server-reporting-services-ssrs/')">SSRS Report</button></li>
+                    <li><button onclick="populateIframe('https://guides.library.duke.edu/excel/intro')">Excel</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">Property</a>
+            <div class="dropdown-content">
+                <ul>
+                    <li><button onclick="populateIframe('https://www.uneecops.com/blog/tableau-critical-business-report-dashboard-guide/')">Tableau Report</button></li>
+                    <li><button onclick="populateIframe('https://www.knowi.com/')">Knowi Report</button></li>
+                    <li><button onclick="populateIframe('https://blog.eduonix.com/2016/02/introduction-to-sql-server-reporting-services-ssrs/')">SSRS Report</button></li>
+                    <li><button onclick="populateIframe('https://guides.library.duke.edu/excel/intro')">Excel</button></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="#">Litigation</a>
+            <div class="dropdown-content">
+                <ul>
+                    <li><button onclick="populateIframe('https://blog.eduonix.com/2016/02/introduction-to-sql-server-reporting-services-ssrs/')">SSRS Report</button></li>
+                    <li><button onclick="populateIframe('https://guides.library.duke.edu/excel/intro')">Excel</button></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="#">Subrogation</a>
+            <div class="dropdown-content">
+                <ul>
+                    <li><button onclick="populateIframe('https://www.passionned.com/business-intelligence/tools/qlik/')">Qlik Report</button></li>
+                    <li><button onclick="populateIframe('https://www.databeat.net/databeatblog/visualize-your-data-with-microsoft-powerbi')">PowerBI Report</button></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="#">Workers Comp</a>
+            <div class="dropdown-content">
+                <ul>
+                    <li><button onclick="populateIframe('https://qlikServer/sense/app/appid1')">Qlik Report</button></li>
+                    <li><button onclick="populateIframe('https://www.databeat.net/databeatblog/visualize-your-data-with-microsoft-powerbi')">PowerBI Report</button></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="#">Medical Management</a>
+            <div class="dropdown-content">
+                <ul>
+                    <li><button onclick="populateIframe('https://www.uneecops.com/blog/tableau-critical-business-report-dashboard-guide/')">Tableau Report</button></li>
+                    <li><button onclick="populateIframe('https://www.knowi.com/')">Knowi Report</button></li>
+                    <li><button onclick="populateIframe('https://blog.eduonix.com/2016/02/introduction-to-sql-server-reporting-services-ssrs/')">SSRS Report</button></li>
+                    <li><button onclick="populateIframe('https://guides.library.duke.edu/excel/intro')">Excel</button></li>
+                </ul>
+
+                    <!-- Add more departments as needed -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content Goes Here -->
+	
+	
+    <iframe id="selectedReport" src='' style='border:none;width:100%;height:1000px;'></iframe>
+
+</body>
+
+</html>
+
